@@ -1,0 +1,20 @@
+{
+  "name": "utilidades-ia",
+  "owner": {
+    "name": "Toni"
+  },
+  "metadata": {
+    "description": "Utilidades de IA curadas: skills, comandos, subagentes, hooks y MCP para trabajar mejor con IA.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "mejores-respuestas",
+      "source": "./plugins/mejores-respuestas",
+      "description": "Píldoras para sacar mejores respuestas de la IA: dictado, entrevista, lenguaje técnico simplificado, diagramas, explicaciones visuales y revisor crítico.",
+      "version": "0.1.0",
+      "category": "productividad",
+      "keywords": ["prompting", "respuestas", "diagramas", "revision", "productividad"]
+    }
+  ]
+}

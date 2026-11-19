@@ -1,0 +1,17 @@
+{
+  "description": "Muestra una píldora de buenas prácticas al iniciar sesión (prioriza el consejo de dictar).",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/pildora-del-dia.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

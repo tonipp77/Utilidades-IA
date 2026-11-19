@@ -1,0 +1,10 @@
+{
+  "name": "mejores-respuestas",
+  "version": "0.1.0",
+  "description": "Píldoras para sacar mejores respuestas de la IA: dictado, entrevista, lenguaje técnico simplificado, diagramas, explicaciones visuales y revisor crítico.",
+  "author": {
+    "name": "Toni"
+  },
+  "license": "MIT",
+  "keywords": ["prompting", "respuestas", "diagramas", "revision", "productividad"]
+}
