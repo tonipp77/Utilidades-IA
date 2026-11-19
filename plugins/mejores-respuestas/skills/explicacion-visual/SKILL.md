@@ -1,6 +1,6 @@
 ---
 name: explicacion-visual
-description: Crea contenido de usar y tirar para entender algo rápido — una mini-web interactiva (calculadoras, simuladores, gráficos con controles) o un vídeo explicativo animado con voz sintética — en un único archivo HTML que se abre en el navegador. Úsala cuando el usuario diga "explícamelo con un vídeo", "hazme una mini-web", "algo interactivo", "una calculadora para", "simúlalo", "enséñamelo visualmente", o cuando un concepto, dato o modelo se entienda mejor tocándolo o viéndolo que leyéndolo.
+description: 'Crea una mini-web interactiva o un vídeo animado con voz, en un HTML de usar y tirar, para entender algo rápido. Úsala con "hazme una mini-web", "explícamelo con un vídeo" o "simúlalo".'
 ---
 
 # Explicación visual de usar y tirar

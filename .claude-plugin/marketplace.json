@@ -12,9 +12,15 @@
       "name": "mejores-respuestas",
       "source": "./plugins/mejores-respuestas",
       "description": "Píldoras para sacar mejores respuestas de la IA: dictado, entrevista, lenguaje técnico simplificado, diagramas, explicaciones visuales y revisor crítico.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "productividad",
-      "keywords": ["prompting", "respuestas", "diagramas", "revision", "productividad"]
+      "keywords": [
+        "prompting",
+        "respuestas",
+        "diagramas",
+        "revision",
+        "productividad"
+      ]
     }
   ]
 }

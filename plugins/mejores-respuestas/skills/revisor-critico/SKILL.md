@@ -1,6 +1,6 @@
 ---
 name: revisor-critico
-description: Revisa un documento, propuesta, código o respuesta de IA como un revisor crítico que intenta tumbarlo — errores lógicos, datos débiles y puntos ciegos — citando el fragmento exacto, con un máximo de tres críticas justificadas y sin inventar críticas de relleno. Exige contexto limpio (chat nuevo o subagente) para evitar la complacencia. Úsala cuando el usuario diga "revísalo críticamente", "intenta tumbarlo", "abogado del diablo", "busca fallos", "revisor crítico", o antes de enviar, firmar o publicar algo importante.
+description: 'Revisa un documento como un crítico que quiere tumbarlo: máximo 3 fallos citados, sin relleno y en contexto limpio. Úsala con "revísalo críticamente", "busca fallos" o "abogado del diablo".'
 ---
 
 # Revisor crítico

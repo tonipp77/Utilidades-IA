@@ -1,6 +1,6 @@
 ---
 name: dictar
-description: Convierte un dictado de voz desordenado (muletillas, repeticiones, ideas sueltas) en un encargo claro y completo para la IA, y enseña a dictar en cada dispositivo. Úsala cuando el usuario pegue o dicte un texto hablado, diga "ordena mi dictado", "te lo he dictado", "voy a dictarte", "cómo dicto", o cuando quiera dar mucho contexto sin escribir.
+description: 'Ordena un dictado de voz desordenado en un encargo claro sin perder información, y enseña a dictar. Úsala con textos hablados, "ordena mi dictado" o "cómo dicto".'
 ---
 
 # Dictar en lugar de escribir

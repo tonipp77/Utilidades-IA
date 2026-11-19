@@ -1,6 +1,6 @@
 ---
 name: entrevista
-description: Antes de redactar o resolver un encargo, entrevista al usuario con un máximo de cinco preguntas, de una en una y con opciones de respuesta, para no suponer ni inventar datos. Úsala cuando el usuario diga "entrevístame", "pregúntame antes", "hazme preguntas", o cuando pida un documento, propuesta, estrategia o texto importante con poco contexto.
+description: 'Antes de responder, entrevista al usuario: máximo 5 preguntas, de una en una y con opciones. Úsala con "entrevístame", "pregúntame antes" o encargos importantes con poco contexto.'
 ---
 
 # Entrevista antes de responder

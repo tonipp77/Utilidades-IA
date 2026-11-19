@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="28" viewBox="0 0 800 28">
+  <defs>
+    <linearGradient id="l" x1="0" x2="1">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#a855f7"/>
+      <stop offset=".5" stop-color="#f5c542"/>
+      <stop offset=".65" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#14b8a6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="brillo" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="0" y="12" width="800" height="4"/></clipPath>
+  </defs>
+  <style>
+    .barrido { animation: barrer 3.5s linear infinite; }
+    @keyframes barrer { from { transform: translateX(-200px); } to { transform: translateX(900px); } }
+    .runa { animation: latir 2.4s ease-in-out infinite; transform-origin: 400px 14px; }
+    @keyframes latir { 0%,100% { transform: rotate(45deg) scale(1); } 50% { transform: rotate(45deg) scale(1.25); } }
+  </style>
+  <rect x="0" y="13" width="800" height="2" fill="url(#l)"/>
+  <g clip-path="url(#c)"><rect class="barrido" x="0" y="12" width="120" height="4" fill="url(#brillo)"/></g>
+  <circle cx="300" cy="14" r="2.5" fill="#a855f7"/>
+  <circle cx="500" cy="14" r="2.5" fill="#14b8a6"/>
+  <circle cx="350" cy="14" r="1.8" fill="#f5c542"/>
+  <circle cx="450" cy="14" r="1.8" fill="#f5c542"/>
+  <rect class="runa" x="392" y="6" width="16" height="16" fill="#1a1025" stroke="#f5c542" stroke-width="2"/>
+  <circle cx="400" cy="14" r="2.5" fill="#f5c542"/>
+</svg>

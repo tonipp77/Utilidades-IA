@@ -1,6 +1,6 @@
 ---
 name: lenguaje-tecnico
-description: Reescribe o explica cualquier texto en lenguaje técnico simplificado inspirado en ASD-STE100 (estilo manual de aviones) — frases cortas, una idea por oración, voz activa, sin adornos y sin perder términos, condiciones, excepciones ni datos. Úsala cuando el usuario diga "explícamelo sencillo", "sin parrafadas", "estilo manual de avión", "STE100", "lenguaje técnico simplificado", o pida entender un contrato, informe, documentación o texto largo y denso.
+description: 'Reescribe textos en lenguaje técnico simplificado (ASD-STE100): frases cortas, voz activa y sin perder datos. Úsala con "explícamelo sencillo", "sin parrafadas", contratos o informes.'
 ---
 
 # Lenguaje técnico simplificado (estilo ASD-STE100)

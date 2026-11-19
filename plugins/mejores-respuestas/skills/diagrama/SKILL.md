@@ -1,6 +1,6 @@
 ---
 name: diagrama
-description: Responde con un diagrama de flechas a color en vez de párrafos para entender procesos, relaciones, dependencias, jerarquías o secuencias de un vistazo. Úsala cuando el usuario diga "dibújame un esquema", "hazme un diagrama", "con flechas", "no me lo expliques con párrafos", "mapa", "flujo", o cuando explique un proceso largo, un documento complejo o un sistema con muchas piezas.
+description: 'Responde con un diagrama de flechas a color en vez de párrafos. Úsala con "dibújame un esquema", "diagrama", "con flechas", procesos, relaciones o sistemas complejos.'
 ---
 
 # Diagrama de flechas a color

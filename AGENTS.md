@@ -32,6 +32,9 @@ Principios no negociables:
 │       │   └── hooks.json      # Hooks del plugin
 │       ├── .mcp.json           # Servidores MCP del plugin
 │       └── README.md           # Doc del plugin (obligatorio)
+├── dist/<plugin>/<skill>.zip   # Skills empaquetadas para Claude/ChatGPT/Gemini (generado)
+├── scripts/empaquetar-skills.ps1  # Genera dist/
+├── assets/                     # Imágenes y SVG del README
 ├── templates/                  # Plantillas base para crear plugins nuevos
 ├── docs/                       # Guías transversales
 ├── AGENTS.md
@@ -50,6 +53,12 @@ Solo `.claude-plugin/plugin.json` y `README.md` son obligatorios en un plugin; e
   - `minor`: nueva skill/comando/agente dentro del plugin.
   - `major`: cambios incompatibles (renombrados, eliminación de componentes).
 - **Skills:** el campo `description` del frontmatter es lo que dispara la skill. Debe decir **qué hace y cuándo usarla**, con frases que diría el usuario. Mantén `SKILL.md` conciso; mueve el detalle a `references/`.
+- **Skills portables:** las skills deben funcionar también en Claude (web/app), ChatGPT, Codex, Gemini y Gemini CLI:
+  - `description` de **máximo 200 caracteres** (límite de claude.ai) y entre comillas simples en el YAML.
+  - El nombre de la carpeta debe coincidir con `name`.
+  - Nada de leer archivos externos a la skill para funcionar: plantillas incrustadas en `SKILL.md`.
+  - Si usas herramientas exclusivas de Claude Code (`AskUserQuestion`, `Agent`, `$ARGUMENTS`), da siempre una alternativa en texto.
+- **README raíz:** tono de partida de rol (Dungeons & Dragons), divertido pero preciso. Mantén ese tono al añadir plugins y no rompas las instrucciones de instalación.
 - **Rutas en hooks/MCP:** usa siempre `${CLAUDE_PLUGIN_ROOT}` para referenciar archivos del plugin. Nunca rutas absolutas.
 - **Scripts:** preferir multiplataforma (Node o Python). Si son específicos de PowerShell o Bash, indícalo en el README del plugin.
 - **Secretos:** solo vía variables de entorno documentadas. Nunca claves, tokens ni datos personales en el repo.
@@ -79,7 +88,7 @@ Solo `.claude-plugin/plugin.json` y `README.md` son obligatorios en un plugin; e
      "category": "productividad"
    }
    ```
-6. Actualiza la tabla de catálogo de [README.md](README.md).
+6. Regenera los ZIP con `pwsh ./scripts/empaquetar-skills.ps1` y actualiza la Taberna (catálogo) de [README.md](README.md) con su rareza y enlaces a los ZIP.
 7. Valida (ver abajo).
 
 Un plugin que no esté en `marketplace.json` **no existe** para los usuarios. Mantén ambos sincronizados (nombre, versión, descripción).
